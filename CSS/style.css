@@ -1,0 +1,75 @@
+h3 {
+  color: rgb(108, 165, 42);
+}
+
+a {
+  color: rgb(3, 1, 1);
+}
+h1 {
+  color: darkblue;
+  text-align: center;
+}
+
+.subtitlu {
+  color: indigo;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#titlurosu {
+  color: rgb(21, 100, 204);
+}
+
+p {
+  background-color: rgb(95, 205, 238);
+}
+
+body {
+  background-color: white;
+}
+
+article {
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(27, 31, 31);
+  width: 300px;
+  border: 5px solid rgb(22, 7, 44);
+  margin: 25px ;
+  padding: 20px;
+  display: inline-block;
+  vertical-align: top;
+  background-color: rgb(235, 203, 203);
+}
+article img{
+  width: 100%;
+}
+h1:hover {color: red;
+
+}
+
+nav a{
+  color: black;
+  background-color: orange;
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 20px;
+}
+  nav a:hover{
+    color: blue;
+    background-color: bisque;
+  }
+  nav{background-color: orangered;
+  padding-top:10px; 
+    
+}
+
+@media screen and (max-width:500px){
+body{background-color: blanchedalmond;}
+}
+
+/* numim parintele, apoi specific. ca sa facem doar cu primul copil, punem semnul 
+< intre atribute
+daca vrem cuvinte speciale, il incadram in atributul span si apoi facem cu class,
+ putem sa dam si lui article sau header 
+ ----------
+ display-ul flex cel mai folosit*/
